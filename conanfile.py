@@ -8,7 +8,6 @@ class RapiXMLConan(ConanFile):
     description = "RapidXml is an attempt to create the fastest XML parser possible"
     url = "https://github.com/bincrafters/conan-rapidxml"
     homepage = "http://rapidxml.sourceforge.net"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = ("BSL-1.0", "MIT")
     exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
